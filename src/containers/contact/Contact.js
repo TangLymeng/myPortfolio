@@ -47,8 +47,8 @@ export default function Contact() {
               >
                 {contactInfo.email_address}
               </a>
-              <br />
-              <br />
+              <p className="contact-detail">Address: {contactInfo.address}</p>
+            
               <SocialMedia />
             </div>
           </div>
